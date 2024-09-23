@@ -1,0 +1,206 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    
+
+}
+body{
+   background-color: #292D34;
+}
+.header{
+    &__wrapper{
+    display: flex;
+    margin-top: 57px;
+    align-items: center;
+    justify-content: space-between;
+    } 
+    &__menu{
+    display: flex;
+    gap: 85px;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 26px;
+    padding-left: 67px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    height: 83px;
+    max-width: 1050px;
+    font-size: 24px;
+    }
+    &__logo{
+    margin-left: 232px;
+    }
+    &__link{
+    color: #fff;
+    }
+    &__nav{
+    position: right;
+    }
+    &__additional_menu{
+    position: right;
+    }
+}
+
+.merch{
+    margin-top: 6px;
+    background-color: #292D34;
+    border-radius: 30px;
+}
+.catalog{
+    height: 250px;
+    width: 450px;
+    
+}
+.banner{
+    display: flex;
+    margin-top: 173px;
+    align-items: center;
+    gap: 140px;
+    
+    &__text{
+    color: #fff;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    margin-left: 30px;
+    }
+    &__first{
+    display: flex;
+    width: 700px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    gap: 180px;
+    
+    }  
+    &__second{
+    display: flex;
+    width: 700px;
+    
+    background-color: #4F5359;
+    border-radius: 30px;
+    gap: 85px;
+    
+    }  
+    &__deletion{
+    background-color: #292D34;
+    border-radius: 30px;
+    height: 380px;
+    }
+    &__arrow{
+        margin-top: 253px;
+    }
+}
+.merch{
+    max-width: 401px;
+    max-height: 418px;
+    
+}
+.example{
+    display: flex;
+    background: url(../img/z400\ спереди.png) no-repeat center center;
+    border-radius: 30px;
+    max-width: 1400px;
+    height: 730px;
+    margin: 300px auto;
+    &__title{
+        color: #fff;
+        font-size: 48px;
+        margin-left: 131px;
+        margin-top: 92px;
+    }
+    &__arrow{
+        padding-left: -10;
+        margin-top: 50px;
+    }
+    
+}
+
+.footer{
+    &__container{
+        display: flex;
+        max-width: 1413px;
+        margin: 0 auto;
+        
+    }
+    &__line{
+    margin-top: 186px;
+    margin-bottom: 45px;
+    color: #FF0000;
+    }
+    &__social-netmork{
+        display: flex;
+    }
+    
+
+    &__social-netmork{
+        display: flex;
+        gap: 800px;
+    }
+    &__title{
+        background-color: #005DFF;
+        padding-left: 38px;
+        padding-right: 169px;
+        padding-bottom: 100px;
+        border-radius: 30px;
+        color: #fff;
+        max-width: 376px;
+        max-height: 200px;
+    }
+    &__subtitle{
+        font-size: 16px;
+        display: flex;
+        gap: 30px;
+        border-radius: 10px;
+        margin-top: 28px;
+    }
+    &__subtitle-Telegram{
+        background-color: #000;
+        color: #fff;
+        padding-left: 14px;
+        padding-right: 86px;
+        padding-bottom: 100px;
+        border-radius: 10px;
+        max-width: 120px;
+        max-height: 100px;
+    }
+    &__subtitle-VK{
+        background-color: #000;
+        color: #fff;
+        padding-left: 14px;
+        padding-right: 86px;
+        padding-bottom: 100px;
+        border-radius: 10px;
+        max-width: 120px;
+        max-height: 100px;
+
+    }
+    &__text{
+        color: #fff;
+    
+    }
+    &__mail{
+        font-size: 24px;
+
+    }
+    &__policy{
+        font-size: 16px;
+    }
+    &__policy{
+       color: #fff;
+       margin-top: 39px;
+    } 
+}
+    
